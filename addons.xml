@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.timmiotool" name="Timmiotool Repository" version="1.0.0" provider-name="Timmiotool"><requires><import addon="xbmc.addon" version="12.0.0" /></requires><extension point="xbmc.addon.repository" name="Timmiotool Repository"><dir><info compressed="false">https://timmiotool.github.io/kodi-repo/addons.xml</info><checksum>https://timmiotool.github.io/kodi-repo/addons.xml.md5</checksum><datadir zip="true">https://timmiotool.github.io/kodi-repo/</datadir></dir></extension><extension point="xbmc.addon.metadata"><summary lang="de_DE">Persönliches Kodi-Repository</summary><description lang="de_DE">Repository für eigene Addons und Skins, gehostet über GitHub Pages.</description><summary lang="en_GB">Personal Kodi repository</summary><description lang="en_GB">Repository for my own addons and skins, hosted via GitHub Pages.</description><platform>all</platform></extension></addon>
+<addon id="skin.lumen" version="1.0.41" name="Lumen" provider-name="Timmiotool"><requires><import addon="xbmc.gui" version="5.17.0" /><import addon="xbmc.python" version="3.0.0" /><import addon="script.globalsearch" version="9.0.0" /><import addon="script.artistslideshow" version="4.0.0" /></requires><extension point="xbmc.gui.skin" debugging="false"><res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" /><effectslowdown>1.0</effectslowdown></extension><extension point="xbmc.service" library="scripts/upnext.py" start="login" /><extension point="xbmc.python.script" library="scripts/libraryinfo.py"><provides>executable</provides></extension><extension point="xbmc.addon.metadata"><summary lang="en_GB">Lumen - artwork first</summary><summary lang="de_DE">Lumen - Cover und Fanart im Mittelpunkt</summary><description lang="en_GB">Dark, calm skin that puts artwork and fanart first. Designed and optimised for keyboard and remote control, extremely light on resources and smooth even on low-power devices.
+
+Home: detail area with poster, plot and media info (codec, resolution, sound). Up to 8 freely chosen widgets (continue watching, started shows, recently added ...), each with its own image type. Custom menu items with any action, menu bar freely sortable. Watched titles can be hidden.
+
+Library: seven views (poster, list, info, wall, small posters, banner, poster wall) with watched check mark, half circle for started titles, progress bars and media info. The image type is configurable per view for movies, shows, music and favourites. Letter overlay while scrolling fast.
+
+Player: video with clear logo, cover, info overlay and fast seeking, music with fanart and Artist Slideshow. Button size in three steps, controls auto-hide with configurable time.
+
+Also: live TV and radio with programme guide, own search with on-screen keyboard, favourites with media info, library information, optional start animation, backup and restore of all settings (also to network drives), changelog in the add-on info. Add-on windows such as the LibreELEC configuration are displayed correctly.
+
+Everything is set under Settings &gt; Lumen configuration, with a short explanation for every option. German and English.
+
+Author: Timmiotool</description><description lang="de_DE">Dunkler, ruhiger Skin, der Cover und Fanart in den Vordergrund stellt. Für die Bedienung mit Tastatur und Fernbedienung gebaut und optimiert, extrem ressourcenschonend und flüssig auch auf Geräten mit wenig Leistung.
+
+Startseite: Detailbereich mit Poster, Handlung und Mediendaten (Codec, Auflösung, Ton). Bis zu 8 frei wählbare Widgets (Weiter ansehen, Begonnene Serien, Zuletzt hinzugefügt ...), jedes mit eigener Bildart. Eigene Menüpunkte mit frei wählbarer Aktion, Menüleiste frei sortierbar. Gesehene Titel lassen sich ausblenden.
+
+Bibliothek: sieben Ansichten (Poster, Liste, Info, Wand, Kleine Poster, Banner, Poster Wall) mit Gesehen-Häkchen, Halbkreis für Begonnenes, Fortschrittsbalken und Medieninfos. Die Bildart ist je Ansicht einstellbar, getrennt für Filme, Serien, Musik und Favoriten. Buchstabeneinblendung beim schnellen Scrollen.
+
+Player: Video mit Clearlogo, Cover, Info-Overlay und schneller Spulfunktion, Musik mit Fanart und Artist Slideshow. Tastengröße in drei Stufen, Steuerung blendet sich nach einstellbarer Zeit aus.
+
+Außerdem: Live-TV und Radio mit Programmführer, eigene Suche mit Bildschirmtastatur, Favoriten mit Medieninfos, Bibliotheksinformationen, optionale Startanimation, Sicherung und Wiederherstellung aller Einstellungen (auch auf Netzlaufwerke), Changelog in der Add-on-Info. Add-on-Fenster wie die LibreELEC-Konfiguration werden korrekt dargestellt.
+
+Alles einstellbar unter Einstellungen &gt; Lumen Konfiguration, mit kurzer Erklärung zu jeder Option. Deutsch und Englisch.
+
+Autor: Timmiotool</description><platform>all</platform><license>GPL-2.0-or-later</license><news>1.0.41 - Gesehen-Haekchen und Halbkreis bei Dateien in der Listen- und Info-Ansicht der Dateiansicht (abschaltbar), neue Standardwerte
+1.0.40 - Neue Standardwerte fuer Installation und Zuruecksetzen (Standardansicht fuer Videos-Dateilisten und Add-ons)
+1.0.39 - OK-Taste einstellbar (Startseite und Bibliothek, Lumen Auswahlmenue), Standardansicht fuer alle Bereiche, neue Kacheln in den Einstellungen, Stopp-Taste im Videoplayer verschoben, gleich hohe Tasten im Musikplayer
+1.0.38 - Neue Standardwerte fuer Installation und Zuruecksetzen, Standardansicht Alben jetzt Lumen Musik
+1.0.37 - Standardansicht je Bereich (Filme, Serien, Staffeln, Folgen, Musik) mit Taste Auf alle Listen anwenden, Zuruecksetzen und Neuinstallation stellen alle Listen auf die Standardansichten
+1.0.36 - Standardansichten, Spenden-Karte (ausblendbar), neuer Menuepunkt Sonstiges, neue Standardwerte
+1.0.35 - Neue Musik-Ansichten (Lumen Musik, Rund, Regal), Jetzt laeuft auf der Startseite mit Artist-Slideshow-Hintergruenden, Artist Slideshow wird mit installiert, neue Standardwerte
+1.0.34 - Neue Ansicht Lumen, neue Info-Seite fuer Filme und Serien, Besetzung im Player lesbar, Ring im Info-Fenster rund, kleine Korrekturen
+1.0.33 - Dauer-Chip bei Serien und Staffeln ausgeblendet
+1.0.32 - Info-Karte: Gesehen-Markierung als Chip an erster Stelle
+1.0.31 - Marke beim Spulen, Markierungen in Ansichten ein-/ausschaltbar, Info-Fenster Ueber Lumen, Countdown-Balken korrigiert, scrollende Beschreibungen, neue Standardwerte
+1.0.30 - Neu: Nächste Folge (Up Next) wie bei Netflix mit Countdown, Jetzt abspielen, Stoppen und Schaust du noch?, alle Optionen einstellbar
+1.0.29 - Neue Serien-Info-Ansicht, Markierungen neben der Bewertung (abschaltbar), Besetzung mit Fotos im Player-Info-Fenster, Fortschrittsbalken in allen Ansichten abschaltbar, Balkenfehler in der Liste behoben, neue Standardwerte
+1.0.28 - Fix: Abspielen-/Mehr-Buttons erscheinen nicht mehr, wenn die Option ausgeschaltet ist
+1.0.27 - Position/Gesamt in den Ansichten, Rueckfrage und Hinweis beim Zuruecksetzen, Besetzung im Info-Dialog korrigiert, Abspielen-/Mehr-Buttons, neue Standardwerte
+1.0.26 - Neue Option im Videoplayer: Gesamtspielzeit statt Restzeit anzeigen
+1.0.25 - Laufendes Video bleibt als Hintergrund sichtbar, wenn man zurueck in den Skin wechselt (abschaltbar)
+1.0.24 - Global Search (script.globalsearch) wird bei der Installation automatisch mitinstalliert
+1.0.23 - Neue Standardwerte fuer Installation und Zuruecksetzen, ueberarbeitete Beschreibung
+1.0.22 - Alle Bildoptionen zuruecksetzen: Favoriten wieder auf Poster / Cover
+1.0.21 - Sicherung: Speicherort frei waehlbar (Kodi-Quellen, alle Laufwerke und Netzwerkorte oder Pfad manuell, z. B. smb://)
+1.0.20 - LibreELEC-Konfiguration: Standardschriften jetzt korrekt eingebunden
+1.0.19 - LibreELEC-Konfiguration: fehlende Standardschriften (Defaults.xml) ergaenzt
+1.0.18 - LibreELEC-Konfiguration nutzbar (Schriften/Farben, Eintrag in den Einstellungen)
+1.0.17 - Neues Widget Begonnene Serien, neue Standardwerte
+1.0.16 - Bildschirmtastatur: Navigation zu OK, Abbrechen und IP-Adresse korrigiert
+1.0.15 - Neue Standardwerte fuer Installation und Zuruecksetzen
+1.0.14 - Favoriten mit Bildart-Option und Medieninfos, Buchstabeneinblendung beim Scrollen (je Bereich abschaltbar), Clearlogo-Option im Videoplayer, Live-TV-Tasten korrigiert, Uebersetzungen geprueft
+1.0.13 - Tastengroesse im Video- und Musikplayer einstellbar, Tasten mittig, Clearlogo begrenzt, Buttons Zuletzt hinzugefuegt / Alle Filme, neue Standardwerte
+1.0.12 - Sicherung und Wiederherstellung der Einstellungen, Startanimation (abschaltbar), neue Standardwerte
+1.0.11 - Buttons Zuletzt hinzugefuegt / Alle Filme, Fortschrittsbalken auf der Startseite abschaltbar, neue Standardwerte, Zuruecksetzen setzt Widgets zurueck
+1.0.10 - Lumen Konfiguration neu: Gruppen mit Reitern, Beschreibung zu jeder Option, Fix der Pfeiltasten-Navigation
+1.0.9 - Fortsetzen-Dialog und Kontextmenues mittig, neues Suchfenster, Gesehen-/Begonnen-Markierungen mit Optionen, Fortschrittsbalken in allen Ansichten (abschaltbar), Fixes bei Bildauswahl
+1.0.8 - Eigenes Icon-Set fuer Bibliothek, Add-ons, Quellen und mehr
+1.0.7 - Changelog-Taste in der Add-on-Info, neue Beschreibung
+1.0.6 - Bibliotheksinformationen, Videoplayer mit Kopfzeile/Cover/Info-Overlay, Auto-Ausblenden fuer Video und Musik, gesehene Titel auf der Startseite ausblenden
+1.0.5 - Musik-Ansicht Info mit Seitenleiste, Fix fuer unsichtbaren spielenden Titel, neuer Musikplayer mit Artist-Slideshow-Unterstuetzung, Player-Buttons in Musikfenstern
+1.0.4 - Hauptmenü sortieren, weitere Hauptmenü-Einträge (TV, Radio, Spiele u.a.), EPG-Darstellung repariert, Lumen Konfiguration
+1.0.3 - Bildart pro Startseiten-Widget (Format passt sich an), neues Icon ohne eigene Rundungen
+1.0.2 - Gesehen-Markierung in allen Ansichten, Bilder je Ansicht festlegen, eigene Menüpunkte, Medieninfos in der Poster Wall, Auto-Scrollen langer Titel, Fixes (leere Widgets, Poster Wall)
+1.0.0 - Initialrelease</news><assets><icon>icon.png</icon><fanart>fanart.jpg</fanart></assets></extension></addon>
+</addons>
