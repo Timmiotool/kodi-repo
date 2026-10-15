@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="repository.timmiotool" name="Timmiotool Repository" version="1.0.2" provider-name="Timmiotool"><requires><import addon="xbmc.addon" version="12.0.0" /></requires><extension point="xbmc.addon.repository" name="Timmiotool Repository"><dir><info compressed="false">https://timmiotool.github.io/kodi-repo/addons.xml</info><checksum>https://timmiotool.github.io/kodi-repo/addons.xml.md5</checksum><datadir zip="true">https://timmiotool.github.io/kodi-repo/</datadir></dir></extension><extension point="xbmc.addon.metadata"><summary lang="de_DE">Persönliches Kodi-Repository</summary><description lang="de_DE">Repository für eigene Addons und Skins, gehostet über GitHub Pages.</description><summary lang="en_GB">Personal Kodi repository</summary><description lang="en_GB">Repository for my own addons and skins, hosted via GitHub Pages.</description><platform>all</platform><assets><icon>icon.png</icon></assets></extension></addon>
+<addon id="script.library.info" version="1.1" name="Library Info" provider-name="Timmiotool"><requires><import addon="xbmc.python" version="3.0.0" /></requires><extension point="xbmc.python.script" library="default.py"><provides>executable</provides></extension><extension point="xbmc.addon.metadata"><summary lang="de">Zeigt Informationen zur Medienbibliothek in einem einfachen Fenster an.</summary><summary lang="en">Displays media library information in a simple window.</summary><description lang="de">Zeigt Informationen zur Medienbibliothek in einem einfachen Fenster an.</description><description lang="en">Displays media library information in a simple window.</description><platform>all</platform><assets><icon>resources/icon.png</icon></assets></extension><import addon="resource.language.de_de" version="9.0.0" /><import addon="resource.language.en_gb" version="9.0.0" /></addon>
+<addon id="script.rpitouchdisplay.brightness" version="1.5.0" name="RPI Touch Display Brightness" provider-name="Timmiotool"><requires><import addon="xbmc.python" version="3.0.0" /></requires><extension point="xbmc.python.script" library="default.py" /><extension point="xbmc.service" library="service.py" start="startup" /><extension point="xbmc.addon.metadata"><summary lang="en">Adjust brightness of Raspberry Pi touchscreen</summary><summary lang="de">Helligkeit des Raspberry Pi Touchscreens anpassen</summary><description lang="en">A simple tool to control the brightness of the official Raspberry Pi touchscreen. Created by Timmiotool.</description><description lang="de">Ein einfaches Tool zur Steuerung der Helligkeit des offiziellen Raspberry Pi Touch-Displays. Erstellt von Timmiotool.</description><platform>all</platform></extension></addon>
+<addon id="skin.estuary.timmiotool" version="1.5.4" name="Estuary Mod (Timmiotool)" provider-name="Timmiotool, Guilouz, phil65, Ichabod Fletchman, pkscout"><requires><import addon="xbmc.gui" version="5.17.0" /></requires><extension point="xbmc.gui.skin" debugging="false"><res width="1920" height="1440" aspect="4:3" default="false" folder="xml" /><res width="1920" height="1280" aspect="3:2" default="false" folder="xml" /><res width="1920" height="1200" aspect="16:10" default="false" folder="xml" /><res width="2040" height="1080" aspect="17:9" default="false" folder="xml" /><res width="1920" height="1080" aspect="16:9" default="true" folder="xml" /><res width="2560" height="1080" aspect="21:9" default="false" folder="xml" /><res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" /><res width="2160" height="1080" aspect="18:9" default="false" folder="xml" /></extension><extension point="xbmc.addon.metadata"><news>v.1.5.4
+Deutsch:
+- Name des Addons geändert in "Estuary Mod (Timmiotool)"
+
+English:
+- Addon name changed to "Estuary Mod (Timmiotool)"
+
+v.1.5.3
+Deutsch:
+- Verkleinertes Optionsmenü: permanente blaue Linie zwischen den Pfeilen, die blauen Pfeile erscheinen nur, wenn das Optionsmenü markiert ist (ersetzt die weißen Pfeile aus 1.5.2)
+
+English:
+- Minimized options menu: permanent blue line between the arrows, blue arrows only appear when the options menu is selected (replaces the white arrows from 1.5.2)
+
+v.1.5.2
+Deutsch:
+- Markiertes Symbol im verkleinerten Hauptmenü hat jetzt dieselbe Farbe wie die übrigen markierten Felder (keine dunkle Überlagerung mehr)
+- Verkleinertes Optionsmenü per Maus bedienbar: Klick auf das Feld führt die Option aus, Umschalten mit dem Mausrad oder den Cursortasten
+- Markierung und Icon des Optionsmenüs bleiben nach Mausbenutzung konsistent
+- Pfeile am Optionsmenü werden in Weiß dargestellt
+
+English:
+- Selected icon in the minimized main menu now uses the same colour as other selected items (no dark overlay)
+- Minimized options menu works with the mouse: click the slot to run the option, switch with the mouse wheel or cursor keys
+- Options menu highlight and icon stay consistent after using the mouse
+- Arrows at the options menu are shown in white
+
+v.1.5.1
+Deutsch:
+- Verkleinertes Hauptmenü (nur Icons) mit optionaler Namensanzeige und verkleinertem Optionsmenü
+- Neuer Name, neues Icon
+- Deutsche und englische Texte (mehrsprachig)
+
+English:
+- Minimized main menu (icons only) with optional item label and minimized options menu
+- New name, new icon
+- German and English texts (multilingual)
+		</news><summary lang="en_GB">Estuary mod by Timmiotool with a minimized main menu.</summary><summary lang="de_DE">Estuary Mod von Timmiotool mit verkleinertem Hauptmenü.</summary><description lang="en_GB">A customized version of the Estuary skin by Timmiotool. Includes customization of the home screen and home screen widgets, plus a minimized main menu (icons only) with optional item label and a minimized options menu. Based on Estuary by phil65, the Estuary mod by pkscout and Estuary Mod V2 (KN) by b-jesch.</description><description lang="de_DE">Eine angepasste Version des Estuary-Skins von Timmiotool. Enthält Anpassungen des Startbildschirms und der Startbildschirm-Widgets sowie ein verkleinertes Hauptmenü (nur Icons) mit optionaler Namensanzeige des Menüeintrags und verkleinertem Optionsmenü. Basiert auf Estuary von phil65, Estuary-Mod von pkscout und Estuary Mod V2 (KN) von b-jesch.</description><disclaimer lang="en_GB">This mod is only lightly supported.</disclaimer><disclaimer lang="de_DE">Diese Mod wird nur eingeschränkt unterstützt.</disclaimer><platform>all</platform><license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license><forum>https://forum.kodi.tv/showthread.php?tid=367827</forum><source>https://github.com/pkscout/skin.estuary.nexus.pkscout.mod</source><assets><icon>resources/icon.png</icon><fanart>resources/fanart.jpg</fanart><screenshot>resources/screenshot-20170506-01.jpg</screenshot><screenshot>resources/screenshot-20170506-02.jpg</screenshot><screenshot>resources/screenshot-20170506-03.jpg</screenshot><screenshot>resources/screenshot-20170506-04.jpg</screenshot><screenshot>resources/screenshot-20170506-05.jpg</screenshot></assets></extension></addon>
 <addon id="skin.lumen" version="1.0.43" name="Lumen" provider-name="Timmiotool"><requires><import addon="xbmc.gui" version="5.17.0" /><import addon="xbmc.python" version="3.0.0" /><import addon="script.globalsearch" version="9.0.0" /><import addon="script.artistslideshow" version="4.0.0" /></requires><extension point="xbmc.gui.skin" debugging="false"><res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" /><effectslowdown>1.0</effectslowdown></extension><extension point="xbmc.service" library="scripts/upnext.py" start="login" /><extension point="xbmc.python.script" library="scripts/libraryinfo.py"><provides>executable</provides></extension><extension point="xbmc.addon.metadata"><summary lang="en_GB">Lumen - artwork first</summary><summary lang="de_DE">Lumen - Cover und Fanart im Mittelpunkt</summary><description lang="en_GB">Dark, calm skin that puts artwork and fanart first. Designed and optimised for keyboard and remote control, extremely light on resources and smooth even on low-power devices.
 
 Home: detail area with poster, plot and media info (codec, resolution, sound). Up to 8 freely chosen widgets (continue watching, started shows, recently added ...), each with its own image type. Custom menu items with any action, menu bar freely sortable. Watched titles can be hidden.
