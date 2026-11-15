@@ -11,7 +11,7 @@
 		- Neue Screenshots (Startseite, Filme, Filminfo, Serien, Musik, Skin-Einstellungen)
 		v.1.5.4
 		</news><summary lang="en_GB">Estuary mod by Timmiotool with a minimized main menu.</summary><summary lang="de_DE">Estuary Mod von Timmiotool mit verkleinertem Hauptmenü.</summary><description lang="en_GB">A customized version of the Estuary skin by Timmiotool. Includes customization of the home screen and home screen widgets, plus a minimized main menu (icons only) with optional item label and a minimized options menu. Based on Estuary by phil65, the Estuary mod by pkscout and Estuary Mod V2 (KN) by b-jesch.</description><description lang="de_DE">Eine angepasste Version des Estuary-Skins von Timmiotool. Enthält Anpassungen des Startbildschirms und der Startbildschirm-Widgets sowie ein verkleinertes Hauptmenü (nur Icons) mit optionaler Namensanzeige des Menüeintrags und verkleinertem Optionsmenü. Basiert auf Estuary von phil65, Estuary-Mod von pkscout und Estuary Mod V2 (KN) von b-jesch.</description><disclaimer lang="en_GB">This mod is only lightly supported.</disclaimer><disclaimer lang="de_DE">Diese Mod wird nur eingeschränkt unterstützt.</disclaimer><platform>all</platform><license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license><forum>https://forum.kodi.tv/showthread.php?tid=367827</forum><source>https://github.com/pkscout/skin.estuary.nexus.pkscout.mod</source><assets><icon>resources/icon.png</icon><fanart>resources/fanart.jpg</fanart><screenshot>resources/screenshot-01.jpg</screenshot><screenshot>resources/screenshot-02.jpg</screenshot><screenshot>resources/screenshot-03.jpg</screenshot><screenshot>resources/screenshot-04.jpg</screenshot><screenshot>resources/screenshot-05.jpg</screenshot><screenshot>resources/screenshot-06.jpg</screenshot></assets></extension></addon>
-<addon id="skin.lumen" version="1.1.11" name="Lumen" provider-name="Timmiotool"><requires><import addon="xbmc.gui" version="5.17.0" /><import addon="xbmc.python" version="3.0.0" /><import addon="script.globalsearch" version="9.0.0" /><import addon="script.artistslideshow" version="4.0.0" /></requires><extension point="xbmc.gui.skin" debugging="false"><res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" /><effectslowdown>1.0</effectslowdown></extension><extension point="xbmc.service" library="scripts/lumen.py" start="login" /><extension point="xbmc.python.script" library="scripts/libraryinfo.py"><provides>executable</provides></extension><extension point="xbmc.addon.metadata"><summary lang="en_GB">Lumen - artwork first</summary><summary lang="de_DE">Lumen - Cover und Fanart im Mittelpunkt</summary><description lang="en_GB">Dark, calm design with a focus on artwork and fanart – light on resources and smooth, even on low-powered hardware.
+<addon id="skin.lumen" version="1.2.01" name="Lumen" provider-name="Timmiotool"><requires><import addon="xbmc.gui" version="5.17.0" /><import addon="xbmc.python" version="3.0.0" /><import addon="script.globalsearch" version="9.0.0" /><import addon="script.artistslideshow" version="4.0.0" /><import addon="plugin.video.youtube" version="7.0.0" /></requires><extension point="xbmc.gui.skin" debugging="false"><res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" /><effectslowdown>1.0</effectslowdown></extension><extension point="xbmc.service" library="scripts/lumen.py" start="login" /><extension point="xbmc.python.script" library="scripts/libraryinfo.py"><provides>executable</provides></extension><extension point="xbmc.addon.metadata"><summary lang="en_GB">Lumen - artwork first</summary><summary lang="de_DE">Lumen - Cover und Fanart im Mittelpunkt</summary><description lang="en_GB">Dark, calm design with a focus on artwork and fanart – light on resources and smooth, even on low-powered hardware.
 
 Concept, structure and design are entirely my own work. AI tools were used as support.</description><description lang="de_DE">Dunkles, ruhiges Design mit Fokus auf Cover und Fanart – ressourcenschonend und flüssig, selbst auf leistungsschwacher Hardware.
 
@@ -55,100 +55,5 @@ Koncept, struktur och design är helt mitt eget arbete. AI-verktyg har använts 
 
 Konsept, yapı ve tasarım tamamen bana aittir. Yapay zekâ araçları destek olarak kullanıldı.</description><summary lang="uk_UA">Lumen - на першому місці обкладинки</summary><description lang="uk_UA">Темний, спокійний дизайн із акцентом на обкладинки та фанарт – ощадливий до ресурсів і плавний навіть на слабкому обладнанні.
 
-Концепція, структура та дизайн повністю мої власні. Інструменти ШІ використовувалися як допомога.</description><platform>all</platform><license>GPL-2.0-or-later</license><news>1.1.11 - Fix: Lumen Konfiguration: keine zusaetzlichen leeren Reiter-Buttons mehr; Hervorhebung aller Reiter korrekt (z. B. Infozelle); Spendenkarte: Schrift bei Markierung weiss; Trailer-Reiter: Menuepunkt links markiert
-1.1.10 - Neu: Trailer-Button sucht den Trailer selbst (TMDb oder YouTube-Suche, Sprache und Fallback waehlbar), startet im Vollbild; Konfiguration: weichere Markierung, alle Texte weiss; Gesehen-Markierungen repariert; Info-Seite ohne springende Buttons; Screenshots erneuert
-1.1.09 - Aenderung: Weiss als Standardfarbe; Texte der Lumen Konfiguration immer weiss; gewaehlte Farbe bei markierten Buttons der Info-Seite und in Lumen Player 2; runde Player-Buttons nicht mehr abgeschnitten; Screenshots erneuert
-1.1.08 - Aenderung: Add-on-Screenshots erneuert
-1.1.07 - Aenderung: Abspielen-Button der Info-Seite normal, Buttons von Lumen Player 2 wie Player 1; Fix: runde Player-Buttons unten nicht mehr abgeschnitten
-1.1.06 - Neu: Farben Grau und Weiss, Grau ist Standardfarbe; Up-Next: Zeit im Button statt Sekunden, Button Mehr Infos entfernt, kein doppeltes Einblenden beim Folgenstart
-1.1.05 - Neu: Zwei weitere Up-Next-Designs Button + Info + Bild und Button + Mehr Infos + Bild; Standardwerte abgeglichen
-1.1.04 - Aenderung: TV-Programmuebersicht: Links am Anfang und Zurueck springen zu den oberen Buttons
-1.1.03 - Fix: Text der Spendenkarte passt in die Karte
-1.1.02 - Aenderung: Chip-Zeilen belegen nur Platz, wenn Chips darin stehen (Lumen-Karte, Info-Seiten, Serien-Info); Fix: Sprach-Chips im Player zeigen alle Sprachen; Beispiel-Chips der Konfiguration wie in den Ansichten; Standardwerte abgeglichen
-1.1.01 - Lumen RC1
-1.0.85 - Aenderung: Alle Chips werden in jeder Ansicht vollstaendig angezeigt, bei Bedarf in zwei oder drei Zeilen (Lumen, Poster, Wand, Banner, Poster Wall, Liste, Startseite, Widgets, Info-Ansicht, Player 4, Player-Info); Fix: Zuruecksetzen setzt Startkennzeichen und Infozeile korrekt; Standardwerte abgeglichen
-1.0.84 - Neu: Sprach-Chips mit allen Audio- und Untertitelsprachen; Chip-Option Zuletzt gesehen; Favoriten-Chips getrennt einstellbar; alle Info-Chips in allen Ansichten; Chips in mehreren Zeilen (Info-Ansicht, Info-Seite); Fixes: Besetzung, abgeschnittene Chips, Menue-Markierung; Standardwerte aktualisiert
-1.0.83 - Neu: Info-Chips mit Symbolen; Sprachen als Namen in der Skin-Sprache; Option Infozeile je Bereich; mehr Info-Chips (Bewertung, Altersfreigabe, Regie, Studio u. a.), Startseite in Detailbereich und Widgets getrennt, eigene Chips fuer die Info-Seite des Players; Fixes in Musik-Info-Ansicht, Infozeile und Lumen-Ansicht; Standardwerte aktualisiert
-1.0.82 - Aenderung: Alle Player mit runden Bedienknoepfen und voll abgerundeten Textbuttons (jede Tastengroesse); zwei Add-on-Screenshots erneuert
-1.0.81 - Aenderung: Add-on-Screenshots erneuert
-1.0.80 - Neu: Bildqualitaet (SD/HD/4K/8K) in der Player-Titelzeile (ausser Player 4); Testfunktionen Player testen (Video/Musik) in den Optionen; Aenderung: Player 4 mit runden Buttons, Info-Fenster mit voll abgerundeten Buttons
-1.0.79 - Aenderung: Ordner-Symbol mit transparentem Hintergrund
-1.0.78 - Neu: Skin-Option NAS-Platten beim Start aufwecken; Busy-Spinner ohne dunklen Kreis (transparent)
-1.0.77 - Aenderung: Optionen Gesehene Filme/Serien in den Widgets ausblenden stehen jetzt im Reiter Darstellung
-1.0.76 - Neu: Skin-Optionen Lauftext in den Widgets und Lauftext im Detailbereich (Startseite) ein/aus; Fix: scrollender Untertitel rutschte aus dem Bild; falsche Beschreibung beim Info-Chips-Button
-1.0.75 - Aenderung: Changelog vervollstaendigt (Versionen 1.0.71 und 1.0.72 ergaenzt), keine sichtbare Aenderung
-1.0.74 - Fix: Zweizeilige Titel unter den Covern werden nicht mehr abgeschnitten, noch laengere scrollen automatisch; Audio-Kurzbezeichnungen in der Schrift der anderen Chips; Zurueck-Eintrag (..) nur noch als Pfeil
-1.0.73 - Fix: Up-Next-Countdown zaehlt sekundengenau herunter; fehlende Cover/Bilder des abgespielten Mediums nach der Rueckkehr aus dem Player (Liste wird neu geladen); Standardwerte: Up-Next-Design Button + Info, Option Serien von der Startseite: Uebersicht oeffnen aus
-1.0.72 - Aenderung: Standardwerte: Option Serien von der Startseite: Uebersicht oeffnen ist bei Neuinstallation und nach Zuruecksetzen ausgeschaltet
-1.0.71 - Aenderung: Standardwerte (Neuinstallation und Zuruecksetzen) uebernehmen das Up-Next-Design Button + Info
-1.0.70 - Neu: Beschreibungstext anwaehlbar und gross lesbar (Info-Fenster und Bibliotheksansichten, Option); Up Next mit drei weiteren Designs (Button, Button + Info, Button + Mehr Infos) und Testfunktion; Optionen Fokus bei Serien und Serien von der Startseite: Uebersicht oeffnen; Plakatwand ohne Ueberdeckung beim Scrollen; neue Standardansichten fuer Add-on-Repositories
-1.0.69 - Fix: Kontextmenue und Fortsetzen-Dialog erscheinen in allen Ansichten mittig im Bild
-1.0.68 - Aenderung: leere Hilfsdatei aus dem Skin entfernt, keine sichtbare Aenderung
-1.0.67 - Fix: Symbol-Ansichten (z. B. Addon-Browser): zweizeilige Titel wurden unten abgeschnitten
-1.0.66 - Neu: Info-Chips-Konfiguration mit Ueberschriften, klareren Namen und Hilfefenster; Hilfefenster bei Bilder je Ansicht
-1.0.65 - Aenderung: Skin intern aufgeraeumt (nicht benoetigte Teile entfernt), keine sichtbare Aenderung
-1.0.64 - Neu: Menuepunkt Informationen und Markierungen (frueher Markierungen und Fortschritt) mit Info-Chips; Audio-Chips (Dolby, DTS usw.) zeigen das Logo des Formats statt Text; Info-Chips je Bereich waehlbar (Info-Chips in der Lumen-Konfiguration); japanische/chinesische/koreanische Zeichen werden angezeigt
-1.0.63 - Aenderung: Lumen Player 2 und 3: Stop-Button direkt neben Pause/Play; neue Standardansichten
-1.0.62 - Neu: Abspielen-/Mehr-Buttons der Startseite erscheinen nur bei markiertem Detailbereich, Option Buttons dauerhaft anzeigen; Suche im Hauptmenue als Lupe; aktuelle Einstellungen und Ansichten als neue Standardwerte
-1.0.61 - Fix: Nach dem Beenden eines Videos steht der Fokus in allen Bibliotheksansichten wieder auf dem zuletzt abgespielten Medium
-1.0.60 - Fix: Lumen Player 1: Navigation mit Pfeiltasten von den Spultasten zu Stop und den Optionsbuttons
-1.0.59 - Neu: Lumen Player 2 bis 5 fuer Video, Live-TV und Musik (getrennt waehlbar), Clearlogo in allen Playern, Cover-Option in Lumen Player 5; Fix: Zeit und Buttons in Lumen Player 5; neue Standardwerte und Standardansichten
-1.0.58 - Neu: Nach dem Abspielen von der Startseite steht der Fokus wieder auf dem zuletzt abgespielten Medium
-1.0.57 - Neu: Option Wiedergabe beim Verlassen des Videoplayers stoppen; Fix: Fokus startet in Lumen und Poster Wall direkt nach dem Kodi-Start auf dem ersten Medium
-1.0.56 - Neu: Serien oeffnen auf der Staffel der zuletzt gespielten Folge; Links aus Listen und Postern springt zu den Buttons oben; Lumen und Poster Wall starten auf dem ersten Medium
-1.0.55 - Fix: Add-ons-Uebersicht: Anzahl bei Aktualisierung verfuegbar zaehlt nur noch echte Updates
-1.0.54 - Lumen Player 2: Clearlogo hat jetzt dieselbe maximale Groesse wie im Lumen Player 1
-1.0.53 - Neu: Add-ons-Uebersicht mit Kategorie Add-on-Browser und Aktualisierung verfuegbar (nur bei vorhandenen Updates); Player heissen jetzt Lumen Player 1 und Lumen Player 2
-1.0.52 - Fix: Beschreibungen der Player-Ansicht erscheinen in allen Sprachen in der gewaehlten Sprache
-1.0.51 - Streaming-Player heisst jetzt Lumen Streaming Player und ist fuer Neuinstallation und Zuruecksetzen vorgewaehlt
-1.0.50 - Neu: Player-Ansicht getrennt fuer Video/Live-TV und Musik waehlbar; Streaming-Player: Fortschrittsleiste nicht mehr markierbar, Spulen nur per Tasten
-1.0.49 - Neu: Streaming-Player (Video, Musik, Live-TV) mit grossem Play-Button, duenner Fortschrittsleiste und Optionsbuttons, waehlbar unter Videoplayer/Musikplayer &gt; Player-Ansicht; Fix: langer Titel in der Kopfleiste laeuft nicht mehr unter den Buchstaben-Button
-1.0.48 - Neu: Add-ons-Uebersicht (Kategorien und Reihen je Add-on-Typ, scrollbar), waehlbar bei Oeffnen mit; Option fuer die Add-ons-Kachel in den Einstellungen; neue Standardwerte
-1.0.47 - Neu: Live-TV-Fenster: Zurueck oder Links in der Liste springt zu den Optionsbuttons oben; Fix: Buttons oben mit Pfeiltasten nacheinander erreichbar
-1.0.46 - Fix: Live-TV ohne Sendungsinfo zeigt Sender statt internem Streamnamen in der Player-Kopfzeile
-1.0.45 - Bilder je Ansicht: aktiver Bereich und Reiter heller markiert
-1.0.44 - Neu: Oeffnen mit fuer weitere Menuepunkte, Bilder je Ansicht fuer Lumen-Ansicht und Suche, Bildgroesse passt sich der Bildart an, Buchstabeneinblendung je Ansicht mit Button, Suche: Wiedergabe-Button und Markierung des laufenden Titels, Changelog deutsch/englisch; Fix: Haekchen bei Serien
-1.0.43 - Neu: Uebersetzungen in 20 weiteren Sprachen (Franzoesisch, Spanisch, Italienisch, Portugiesisch BR/PT, Niederlaendisch, Polnisch, Tuerkisch, Tschechisch, Slowakisch, Schwedisch, Daenisch, Finnisch, Norwegisch, Ungarisch, Rumaenisch, Griechisch, Ukrainisch, Bulgarisch, Kroatisch), Beschreibung im Add-on-Store in allen Sprachen
-1.0.42 - Neu: Wetter im Detailbereich und Wetter unter der Uhr (abschaltbar), Add-on-Info mit Fanart, Screenshots und Buttons Nach Updates suchen / Add-on-Einstellungen, Add-on-Listen mit quadratischen Icons, 10 Screenshots; Optionen werden ausgegraut wenn sie von einer anderen Option abhaengen, neues Fanart, neue Standardwerte; Fix: Fortsetzen-Dialog mittig, Lade-Anzeige beim Start der Wiedergabe
-1.0.41 - Gesehen-Haekchen und Halbkreis bei Dateien in der Listen- und Info-Ansicht der Dateiansicht (abschaltbar), neue Standardwerte
-1.0.40 - Neue Standardwerte fuer Installation und Zuruecksetzen (Standardansicht fuer Videos-Dateilisten und Add-ons)
-1.0.39 - OK-Taste einstellbar (Startseite und Bibliothek, Lumen Auswahlmenue), Standardansicht fuer alle Bereiche, neue Kacheln in den Einstellungen, Stopp-Taste im Videoplayer verschoben, gleich hohe Tasten im Musikplayer
-1.0.38 - Neue Standardwerte fuer Installation und Zuruecksetzen, Standardansicht Alben jetzt Lumen Musik
-1.0.37 - Standardansicht je Bereich (Filme, Serien, Staffeln, Folgen, Musik) mit Taste Auf alle Listen anwenden, Zuruecksetzen und Neuinstallation stellen alle Listen auf die Standardansichten
-1.0.36 - Standardansichten, Spenden-Karte (ausblendbar), neuer Menuepunkt Sonstiges, neue Standardwerte
-1.0.35 - Neue Musik-Ansichten (Lumen Musik, Rund, Regal), Jetzt laeuft auf der Startseite mit Artist-Slideshow-Hintergruenden, Artist Slideshow wird mit installiert, neue Standardwerte
-1.0.34 - Neue Ansicht Lumen, neue Info-Seite fuer Filme und Serien, Besetzung im Player lesbar, Ring im Info-Fenster rund, kleine Korrekturen
-1.0.33 - Dauer-Chip bei Serien und Staffeln ausgeblendet
-1.0.32 - Info-Karte: Gesehen-Markierung als Chip an erster Stelle
-1.0.31 - Marke beim Spulen, Markierungen in Ansichten ein-/ausschaltbar, Info-Fenster Ueber Lumen, Countdown-Balken korrigiert, scrollende Beschreibungen, neue Standardwerte
-1.0.30 - Neu: Nächste Folge (Up Next) mit Countdown, Jetzt abspielen, Stoppen und Schaust du noch?, alle Optionen einstellbar
-1.0.29 - Neue Serien-Info-Ansicht, Markierungen neben der Bewertung (abschaltbar), Besetzung mit Fotos im Player-Info-Fenster, Fortschrittsbalken in allen Ansichten abschaltbar, Balkenfehler in der Liste behoben, neue Standardwerte
-1.0.28 - Fix: Abspielen-/Mehr-Buttons erscheinen nicht mehr, wenn die Option ausgeschaltet ist
-1.0.27 - Position/Gesamt in den Ansichten, Rueckfrage und Hinweis beim Zuruecksetzen, Besetzung im Info-Dialog korrigiert, Abspielen-/Mehr-Buttons, neue Standardwerte
-1.0.26 - Neue Option im Videoplayer: Gesamtspielzeit statt Restzeit anzeigen
-1.0.25 - Laufendes Video bleibt als Hintergrund sichtbar, wenn man zurueck in den Skin wechselt (abschaltbar)
-1.0.24 - Global Search (script.globalsearch) wird bei der Installation automatisch mitinstalliert
-1.0.23 - Neue Standardwerte fuer Installation und Zuruecksetzen, ueberarbeitete Beschreibung
-1.0.22 - Alle Bildoptionen zuruecksetzen: Favoriten wieder auf Poster / Cover
-1.0.21 - Sicherung: Speicherort frei waehlbar (Kodi-Quellen, alle Laufwerke und Netzwerkorte oder Pfad manuell, z. B. smb://)
-1.0.20 - LibreELEC-Konfiguration: Standardschriften jetzt korrekt eingebunden
-1.0.19 - LibreELEC-Konfiguration: fehlende Standardschriften (Defaults.xml) ergaenzt
-1.0.18 - LibreELEC-Konfiguration nutzbar (Schriften/Farben, Eintrag in den Einstellungen)
-1.0.17 - Neues Widget Begonnene Serien, neue Standardwerte
-1.0.16 - Bildschirmtastatur: Navigation zu OK, Abbrechen und IP-Adresse korrigiert
-1.0.15 - Neue Standardwerte fuer Installation und Zuruecksetzen
-1.0.14 - Favoriten mit Bildart-Option und Medieninfos, Buchstabeneinblendung beim Scrollen (je Bereich abschaltbar), Clearlogo-Option im Videoplayer, Live-TV-Tasten korrigiert, Uebersetzungen geprueft
-1.0.13 - Tastengroesse im Video- und Musikplayer einstellbar, Tasten mittig, Clearlogo begrenzt, Buttons Zuletzt hinzugefuegt / Alle Filme, neue Standardwerte
-1.0.12 - Sicherung und Wiederherstellung der Einstellungen, Startanimation (abschaltbar), neue Standardwerte
-1.0.11 - Buttons Zuletzt hinzugefuegt / Alle Filme, Fortschrittsbalken auf der Startseite abschaltbar, neue Standardwerte, Zuruecksetzen setzt Widgets zurueck
-1.0.10 - Lumen Konfiguration neu: Gruppen mit Reitern, Beschreibung zu jeder Option, Fix der Pfeiltasten-Navigation
-1.0.9 - Fortsetzen-Dialog und Kontextmenues mittig, neues Suchfenster, Gesehen-/Begonnen-Markierungen mit Optionen, Fortschrittsbalken in allen Ansichten (abschaltbar), Fixes bei Bildauswahl
-1.0.8 - Eigenes Icon-Set fuer Bibliothek, Add-ons, Quellen und mehr
-1.0.7 - Changelog-Taste in der Add-on-Info, neue Beschreibung
-1.0.6 - Bibliotheksinformationen, Videoplayer mit Kopfzeile/Cover/Info-Overlay, Auto-Ausblenden fuer Video und Musik, gesehene Titel auf der Startseite ausblenden
-1.0.5 - Musik-Ansicht Info mit Seitenleiste, Fix fuer unsichtbaren spielenden Titel, neuer Musikplayer mit Artist-Slideshow-Unterstuetzung, Player-Buttons in Musikfenstern
-1.0.4 - Hauptmenü sortieren, weitere Hauptmenü-Einträge (TV, Radio, Spiele u.a.), EPG-Darstellung repariert, Lumen Konfiguration
-1.0.3 - Bildart pro Startseiten-Widget (Format passt sich an), neues Icon ohne eigene Rundungen
-1.0.2 - Gesehen-Markierung in allen Ansichten, Bilder je Ansicht festlegen, eigene Menüpunkte, Medieninfos in der Poster Wall, Auto-Scrollen langer Titel, Fixes (leere Widgets, Poster Wall)
-1.0.0 - Initialrelease</news><assets><icon>icon.png</icon><fanart>fanart.jpg</fanart><screenshot>resources/screenshots/screenshot-01.jpg</screenshot><screenshot>resources/screenshots/screenshot-02.jpg</screenshot><screenshot>resources/screenshots/screenshot-03.jpg</screenshot><screenshot>resources/screenshots/screenshot-04.jpg</screenshot><screenshot>resources/screenshots/screenshot-05.jpg</screenshot><screenshot>resources/screenshots/screenshot-06.jpg</screenshot><screenshot>resources/screenshots/screenshot-07.jpg</screenshot><screenshot>resources/screenshots/screenshot-08.jpg</screenshot><screenshot>resources/screenshots/screenshot-09.jpg</screenshot><screenshot>resources/screenshots/screenshot-10.jpg</screenshot></assets></extension></addon>
+Концепція, структура та дизайн повністю мої власні. Інструменти ШІ використовувалися як допомога.</description><platform>all</platform><license>GPL-2.0-or-later</license><news>1.2.01 - Stable release: Lumen ist jetzt eine stabile Version. Ansichten, Lumen Player 1-5, Trailer-Suche, Lumen Konfiguration, 22 Sprachen. Benoetigt Kodi 21; Global Search, Artist Slideshow und YouTube werden mitinstalliert. Details im Changelog.</news><assets><icon>icon.png</icon><fanart>fanart.jpg</fanart><screenshot>resources/screenshots/screenshot-01.jpg</screenshot><screenshot>resources/screenshots/screenshot-02.jpg</screenshot><screenshot>resources/screenshots/screenshot-03.jpg</screenshot><screenshot>resources/screenshots/screenshot-04.jpg</screenshot><screenshot>resources/screenshots/screenshot-05.jpg</screenshot><screenshot>resources/screenshots/screenshot-06.jpg</screenshot><screenshot>resources/screenshots/screenshot-07.jpg</screenshot><screenshot>resources/screenshots/screenshot-08.jpg</screenshot><screenshot>resources/screenshots/screenshot-09.jpg</screenshot><screenshot>resources/screenshots/screenshot-10.jpg</screenshot></assets></extension></addon>
 </addons>
